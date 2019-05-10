@@ -1,6 +1,6 @@
 {
   "name": "ghr-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "my utils",
   "main": "index.js",
   "scripts": {
