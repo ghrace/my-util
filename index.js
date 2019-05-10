@@ -64,7 +64,7 @@ export function isWeiXin() {
 // 格式时间
 export const time = {
   getTimeFormat(time) {
-    var date = new Date(parseInt(time) * 1000);
+    var date = new Date(parseInt(time));
     var month, day, hour, min;
     parseInt(date.getMonth()) + 1 < 10
       ? (month = "0" + (parseInt(date.getMonth()) + 1))
@@ -79,7 +79,7 @@ export const time = {
     return [month, day].join("-") + "  " + hour + ":" + min;
   },
   getTimeFormatYMD(time) {
-    var date = new Date(parseInt(time) * 1000);
+    var date = new Date(parseInt(time));
     var year, month, day;
     year = date.getFullYear();
     parseInt(date.getMonth()) + 1 < 10
@@ -89,7 +89,7 @@ export const time = {
     return [year, month, day].join("-");
   },
   getTimeFormatAll(time) {
-    var date = new Date(parseInt(time) * 1000);
+    var date = new Date(parseInt(time));
     var year, month, day, hour, min, second;
     year = date.getFullYear();
     parseInt(date.getMonth()) + 1 < 10
