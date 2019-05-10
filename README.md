@@ -1,7 +1,12 @@
 # my utils 
 
 ## usage
+```
+npm i my-util
 
+import {randomStr} from 'my-util'
+
+```
 - timeout(ms) 等待毫秒
   
 - randomStr  13位随机字符串 
