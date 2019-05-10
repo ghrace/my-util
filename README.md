@@ -2,9 +2,9 @@
 
 ## usage
 ```
-npm i my-util
+npm i mhr-util
 
-import {randomStr} from 'my-util'
+import {randomStr} from 'mghr-util'
 
 ```
 - timeout(ms) 等待毫秒
