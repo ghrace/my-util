@@ -2,28 +2,28 @@
 
 ## usage
 ```
-npm i mhr-util
+npm i ghr-util
 
-import {randomStr} from 'mghr-util'
+import {randomStr} from 'ghr-util'
 
 ```
-- timeout(ms) 等待毫秒
+- timeout(ms)    等待毫秒
   
-- randomStr  13位随机字符串 
+- randomStr    13位随机字符串 
   
-- cutString 截取指定字节的字符串 
+- cutString   截取指定字节的字符串 
 ```js
 /*
 @param str 要截取的字符穿
 @param len 要截取的长度，根据字节计算
 @param suffix 截取前len个后，其余的字符的替换字符，一般用“…”
 */
- ```
-- numberWithCommas 千分位
+ ``` 
+- numberWithCommas   千分位
 
-- isWeiXin 返回bool
+- isWeiXin   返回bool
 
-- time 格式时间
+- time  格式时间
 ```js
 // param 时间戳
 //time 对象里方法
@@ -31,13 +31,13 @@ getTimeFormat m-d h:m
 getTimeFormatYMD y-m-d
 getTimeFormatAll y-m-d h:m:s
 ```
-- checkLength 返回字节长度
+- checkLength   返回字节长度
 
 - cloneObj,clone 
 
-- checkCardNo 验证身份证号
+- checkCardNo   验证身份证号
 
-- isURL,isValidUrl url验证
+- isURL,isValidUrl   url验证
 
 - jsonp 
 ```js
@@ -53,7 +53,7 @@ options={
 }
 jsonp(options)
 ```
-- formatParams data转 URL search 字符串
+- formatParams   data转 URL search 字符串
 
 - cookie
 ```js
@@ -62,19 +62,19 @@ setCookie (name,value,time)
 getCookie(name)
 delCookie(name)
 ```
-- randomString(len) 随机字符串
+- randomString(len)   随机字符串
 
-- parseUA user Agent
+- parseUA    userAgent
 
-- rem rem配置
+- rem  rem配置
 
-- GetRequest 获取url ?参数
+- GetRequest   获取url ?参数
 
-- loadScript(url,cb)  加载js
+- loadScript(url,cb)   加载js
 
-- getRandomColor 随机颜色
+- getRandomColor   随机颜色
 
-- isUndefined undefined 判断
+- isUndefined undefined   判断
 
 - debounce(fn,delay)
 
