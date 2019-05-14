@@ -23,7 +23,7 @@ import {randomStr} from 'ghr-util'
 
 - isWeiXin   返回bool
 
-- time  格式时间
+- time  格式时间 
 ```js
 // param 时间戳
 //time 对象里方法
